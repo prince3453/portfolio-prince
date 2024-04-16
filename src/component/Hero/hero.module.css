@@ -24,7 +24,7 @@
     font-size: 72px;
     font-weight: 900;
     margin-bottom: 33px;
-    font-family: var(--font-roboto);
+    /* font-family: var(--font-roboto); */
     -webkit-background-clip: text;
 }
 
@@ -58,8 +58,8 @@
   }
 
   .description{
-    font-size: 30px;
-    font-family: var(--font-roboto);
+    font-size: 24px;
+    /* font-family: var(--font-roboto); */
     margin-bottom: 52px;
   }
 
@@ -77,4 +77,85 @@
   .heroimg{
     width: 50%;
     z-index: 1;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes floating {
+    0%{
+      transform: translate(0,0px);
+    }
+    50%{
+      transform: translate(0,10px);
+    }
+    100%{
+      transform: translate(0,-0px);
+    }
+  }
+
+  
+
+  .bottomblur{
+    position: absolute;
+    width: 70vw;
+    height: 25vw;
+    min-width: 350px;
+    max-width: 250px;
+    top: 130px;
+    right: -20vw;
+    border-radius: 764px;
+    background: rgba(226, 191, 179);
+    filter: blur(100px);
+    z-index: 0;
+  }
+
+
+  @media screen and (max-width: 830px) {
+    .container{
+      flex-direction: column-reverse;
+    }
+
+    .content{
+      align-items: center;
+    }
+
+    .title{
+      font-size: 60px;
+      font-weight: 900;
+      margin-bottom: 33px;
+      /* font-family: var(--font-roboto); */
+      -webkit-background-clip: text;
+  }
+  
+  .animated-text {
+      display: inline-block;
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 0.15em solid black; /* Adjust border width and color */
+      margin: 0 auto;
+      padding: 0 10px;
+      font-size: 36px; /* Adjust font size */
+      animation: typing 3s steps(40) forwards, blink-caret 0.75s step-end infinite;
+    }
+    
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+    
+    @keyframes blink-caret {
+      from, to {
+        border-color: transparent;
+      }
+      50% {
+        border-color: black; /* Adjust caret color */
+      }
+    }
+    
   }

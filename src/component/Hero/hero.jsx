@@ -29,11 +29,11 @@ export const Hero = () =>{
         <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>{typedText}</h1>
-            <p className={styles.description}>I am Data Engineer and software developer for the 2.5 years of Experience in the Python, Django, ETL pipeline, and Azure Databricks. Reach out if you would like to learn more!</p>
+            <p className={styles.description}>I am an experienced Data Engineer and Software Developer with 2.5 years of specialized expertise in Python, Django, ETL pipelines, and Azure Databricks. My professional journey is marked by a dedication to streamlining data processes and enhancing software solutions. Please feel free to reach out if you're interested in learning more.</p>
             <a href='mailto:ppghoghari@gmail.com' className={styles.contactbtn}>Contact Me</a>
         </div>
         <img src ={getImageUrl("hero/heroImage.png")} alt="Her Image" className={styles.heroimg}></img>
-        <div className={styles.topblur} />
+        
         <div className={styles.bottomblur} />
         </section>
     )

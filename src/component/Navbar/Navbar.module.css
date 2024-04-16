@@ -45,6 +45,7 @@
   .menuicon {
     display: none;
   }
+
   
 
 @media screen and (max-width: 830px){
@@ -52,6 +53,11 @@
         flex-direction: column;
         align-items: flex-start;
     }   
+
+    .videoLogo {
+        height: 140px; /* Adjust to fit your navbar size */
+        width: auto;
+      }
 
     .menu{
         position: absolute;
@@ -93,4 +99,16 @@
         display: flex;
         margin-top: 45px;
       }
+
+      .menuicon .menuClose{
+        width: 20px;
+        height: auto;
+      }
+
+      .menuicon .menuOpen{
+        width: 32px;
+        height: auto;
+      }
+
+
 }

@@ -29,7 +29,7 @@ export const Navbar = () => {
                     )}
                 <div className={styles.menu}>
                     <img src={ menuOpen ? getImageUrl("nav/closeIcon.png") : getImageUrl("nav/menuIcon.png") }
-                    onClick={() => setMenuOpen(!menuOpen)} alt="menu-btn" className={styles.menuicon}/>
+                    onClick={() => setMenuOpen(!menuOpen)} alt="menu-btn" className={styles.menuicon} style={{width:menuOpen ? '20px' : '32px'}}/>
                     <ul className={`${styles.menuitems} ${menuOpen && styles.menuOpen}`} onClick={()=>setMenuOpen(false)}>
                         <li >
                             <a href="/">Home</a>
