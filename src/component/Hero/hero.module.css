@@ -104,7 +104,7 @@
     min-width: 250px; /* adjusted to be less than max-width */
     max-width: 350px; /* adjusted to be more than min-width */
     top: 130px;
-    right: -10vw;
+    right: -8vw;
     border-radius: 764px;
     background: rgba(226, 191, 179);
     filter: blur(100px);
