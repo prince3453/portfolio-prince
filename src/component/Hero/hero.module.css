@@ -100,13 +100,13 @@
   .bottomblur {
     position: absolute;
     width: 70vw;
-    height: 25vw;
+    height: 15vw;
     min-width: 250px; /* adjusted to be less than max-width */
     max-width: 350px; /* adjusted to be more than min-width */
-    top: 130px;
+    top: 150px;
     right: -8vw;
     border-radius: 764px;
-    background: rgba(226, 191, 179);
+    background: rgba(106,74,58,0.45);
     filter: blur(100px);
     z-index: 0;
   }
