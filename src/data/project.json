@@ -1,0 +1,26 @@
+[
+    {
+        "title": "A.I. Duction",
+        "imageSrc": "projects/project.png",
+        "description": "Implemented an innovative AI solution in 'AIduction' to analyze and categorize emotional expressions using deep learning, significantly enhancing real-time interactive learning experiences.",
+        "skills": ["Neural", "Python", "Machine Learning"],
+        "demo": "https://github.com/prince3453/AIducation",
+        "source": "https://github.com/prince3453/AIducation"
+    },
+    {
+        "title": "Project B",
+        "imageSrc": "projects/project.png",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["React", "Express", "Node", "Sass"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Portfolio Website",
+        "imageSrc": "projects/project.png",
+        "description": "A React.js application built with Vite, showcasing my projects and skills in software development, styled with modern CSS techniques.",
+        "skills": ["React", "Vite", "CSS"],
+        "demo": "https://github.com/prince3453/Portfolio_Prince",
+        "source": "https://www.github.com"
+    }
+]

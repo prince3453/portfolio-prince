@@ -1,0 +1,29 @@
+[
+    {
+      "role": "BI Software Developer",
+      "organisation": "Genetec Inc.",
+      "startDate": "May, 2023",
+      "endDate": "August, 2023",
+      "experiences": ["Designed BI solutions, enhanced data analytics.", "Optimized Power BI reports for efficiency."],
+      "imageSrc": "history/genetec.png"
+    },
+    {
+      "role": "Data Scientist",
+      "organisation": "Neu Infotech",
+      "startDate": "April, 2021",
+      "endDate": "July, 2022",
+      "experiences": ["Implemented Python-based ETL pipeline, boosted accuracy.", "Enhanced data storage with Snowflake integration."],
+      "imageSrc": "history/neu.png"
+    },
+    {
+      "role": "Python Developer",
+      "organisation": "Vrundev Infotech",
+      "startDate": "March, 2020",
+      "endDate": "March, 2021",
+      "experiences": [
+        "Developed scalable Django applications, increased responsiveness.",
+        "Refined system features, enhanced user satisfaction."
+      ],
+      "imageSrc": "history/vrundev.png"
+    }
+  ]
