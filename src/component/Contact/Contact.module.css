@@ -12,6 +12,11 @@
     gap : 10px;
 }
 
+.imgsr{
+    width: 50px;
+    height: auto;
+}
+
 .txt{
     align-items: center;
 }
