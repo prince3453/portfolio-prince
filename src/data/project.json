@@ -20,7 +20,7 @@
         "imageSrc": "projects/project.png",
         "description": "A React.js application built with Vite, showcasing my projects and skills in software development, styled with modern CSS techniques.",
         "skills": ["React", "Vite", "CSS"],
-        "demo": "https://github.com/prince3453/Portfolio_Prince",
+        "demo": "https://github.com/prince3453/portfolio-prince",
         "source": "https://www.github.com"
     }
 ]
