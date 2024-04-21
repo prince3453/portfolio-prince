@@ -15,7 +15,7 @@ export const Project =() => {
                 }
             </div>
             <div className={styles.textother}>
-                <a href="https://github.com/prince3453?tab=repositories">Other Projects</a>
+                <a className={styles.otherlink} href="https://github.com/prince3453?tab=repositories">Other Projects</a>
             </div>
         </section>
     );

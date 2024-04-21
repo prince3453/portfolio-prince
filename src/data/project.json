@@ -2,16 +2,16 @@
     {
         "title": "A.I. Duction",
         "imageSrc": "projects/project.png",
-        "description": "Implemented an innovative AI solution in 'AIduction' to analyze and categorize emotional expressions using deep learning, significantly enhancing real-time interactive learning experiences.",
+        "description": "Developed an AI-driven solution to analyze and classify emotional expressions using deep learning, improving real-time interactive learning.",
         "skills": ["Neural", "Python", "Machine Learning"],
         "demo": "https://github.com/prince3453/AIducation",
         "source": "https://github.com/prince3453/AIducation"
     },
     {
-        "title": "Project B",
+        "title": "Olympic Insights 2021: Azure ETL Analysis",
         "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node", "Sass"],
+        "description": "Utilized an ETL pipeline on Azure Cloud to analyze 2021 Olympic data for insights into athlete performances and trends.",
+        "skills": ["Data Factory", "Azure", "Databricks", "Synapse"],
         "demo": "https://www.example.com",
         "source": "https://www.github.com"
     },
@@ -21,6 +21,6 @@
         "description": "A React.js application built with Vite, showcasing my projects and skills in software development, styled with modern CSS techniques.",
         "skills": ["React", "Vite", "CSS"],
         "demo": "https://github.com/prince3453/portfolio-prince",
-        "source": "https://www.github.com"
+        "source": "https://prince3453.github.io/portfolio-prince/"
     }
 ]
