@@ -33,13 +33,14 @@
     text-decoration: none;
 }
 .videoLogo {
-    height: 200px; /* Adjust to fit your navbar size */
+    height: 200px; 
     width: auto;
+    transition: opacity 0.5s ease-in-out;
   }
   
   .staticLogo {
-    height: 200px; /* You might want to set a specific height here */
-    width: auto; /* Adjust width or use 'auto' to maintain aspect ratio */
+    height: 200px; 
+    width: auto; 
   }
 
   .menuicon {
@@ -55,8 +56,9 @@
     }   
 
     .videoLogo {
-        height: 140px; /* Adjust to fit your navbar size */
+        height: 130px; /* Adjust to fit your navbar size */
         width: auto;
+        transition: opacity 0.5s ease-in-out;
       }
 
     .menu{
@@ -91,6 +93,7 @@
         z-index: 1;
     }
     .staticLogo {
+      display: block;
         height: auto; /* Adjust the value as needed */
         width: 140px; /* Maintain the aspect ratio */
       }
@@ -109,6 +112,4 @@
         width: 32px;
         height: auto;
       }
-
-
 }
