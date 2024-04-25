@@ -187,9 +187,3 @@
       height: 60%; /* Adjust height accordingly for tablet screens */
     }
   }
-
-  @media (max-width: 480px) {
-    .heroimg {
-      height: 250px; /* Adjust height accordingly for mobile screens */
-    }
-  }
