@@ -1,30 +1,51 @@
 [
     {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
+      "title": "Python",
+      "imageSrc": "skills/python.png"
     },
     {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
+      "title": "Django",
+      "imageSrc": "skills/Django.png"
     },
     {
-      "title": "React",
-      "imageSrc": "skills/react.png"
+      "title": "Azure Service",
+      "imageSrc": "skills/azure.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
+      "title": "Git/Github",
+      "imageSrc": "contact/githubIcon.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Jira",
+      "imageSrc": "skills/Jira.png"
     },
+    {
+      "title": "Azure devops",
+      "imageSrc": "skills/AzureDevops.png"
+    },
+    {
+      "title": "Spark",
+      "imageSrc": "skills/spark.png"
+    },
+    {
+      "title": "Power BI",
+      "imageSrc": "skills/PowerBI.png"
+    },
+    {
+      "title": "SQL Server",
+      "imageSrc": "skills/SQLSERVER.png"
+    },
+    {
+      "title": "SQL",
+      "imageSrc": "skills/SQL.png"
+    },
+    
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "React",
+      "imageSrc": "skills/react.png"
     }
   ]

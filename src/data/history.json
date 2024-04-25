@@ -8,9 +8,9 @@
       "imageSrc": "history/genetec.png"
     },
     {
-      "role": "Data Scientist",
+      "role": "Data Engineer",
       "organisation": "Neu Infotech",
-      "startDate": "April, 2021",
+      "startDate": "April, 2020",
       "endDate": "July, 2022",
       "experiences": ["Implemented Python-based ETL pipeline, boosted accuracy.", "Enhanced data storage with Snowflake integration."],
       "imageSrc": "history/neu.png"
@@ -18,8 +18,8 @@
     {
       "role": "Python Developer",
       "organisation": "Vrundev Infotech",
-      "startDate": "March, 2020",
-      "endDate": "March, 2021",
+      "startDate": "March, 2019",
+      "endDate": "March, 2020",
       "experiences": [
         "Developed scalable Django applications, increased responsiveness.",
         "Refined system features, enhanced user satisfaction."
