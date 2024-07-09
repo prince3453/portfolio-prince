@@ -32,7 +32,7 @@ export const Hero = () =>{
             <p className={styles.description}>I am an experienced Data Engineer and Software Developer with 2.5 years of specialized expertise in Python, Django, ETL pipelines, and Azure Databricks. My professional journey is marked by a dedication to streamlining data processes and enhancing software solutions. Please feel free to reach out if you're interested in learning more.</p>
             <a href='mailto:ppghoghari@gmail.com' className={styles.contactbtn}>Contact Me</a>
         </div>
-        <img src ={getImageUrl("hero/hero.jpg")} alt="Her Image" className={styles.heroimg}></img>
+        <img src ={getImageUrl("hero/hero.jpg")} alt="His Image" className={styles.heroimg}></img>
         
         <div className={styles.bottomblur} />
         </section>
